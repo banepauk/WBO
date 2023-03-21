@@ -1,6 +1,6 @@
 const { boardPage } = require("../pageObjects/boardPage");
 
-describe("Pencil tool", () => {
+describe("Pencil and delete tool", () => {
   beforeEach(() => {
     let boardName = boardPage.randomString();
     cy.getBoardCode(boardName);

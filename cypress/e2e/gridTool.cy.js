@@ -1,6 +1,6 @@
 const { boardPage } = require("../pageObjects/boardPage");
 
-describe("Griid tool", () => {
+describe("Grid tool", () => {
   beforeEach(() => {
     let boardName = boardPage.randomString();
     cy.getBoardCode(boardName);

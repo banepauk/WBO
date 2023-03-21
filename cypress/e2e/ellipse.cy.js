@@ -7,7 +7,7 @@ describe("Ellipse tool", () => {
     boardPage.navigateToElipseTool();
   });
 
-  it("draw ellpise", () => {
+  it("draw ellipse", () => {
     boardPage.canvasEmptyValidation();
     boardPage.drawEllipse();
     boardPage.ellipseExistValidation();
